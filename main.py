@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-india = pd.read_csv("/home/vaibhav/Downloads/india.csv")
+india = pd.read_csv("india.csv")
 overall_india = list(india["State"].unique())
 overall_india.insert(0, "Overall India")
 
